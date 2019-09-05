@@ -9,17 +9,16 @@
 
 Pod::Spec.new do |s|
   s.name             = "MBCircularProgressBar"
-  s.version          = "0.3.5"
+  s.version          = "0.4.2"
   s.summary          = "a circular animatable & IB highly customizable progress bar"
   s.description      = <<-DESC
 a circular animatable & Interface Builder highly customizable progress bar
                        DESC
-  s.homepage         = "https://github.com/matibot/MBCircularProgressBar"
-  s.screenshots     = "https://raw.github.com/matibot/MBCircularProgressBar/master/Readme/example.png", "https://raw.github.com/matibot/MBCircularProgressBar/master/Readme/MBCircularProgressBar.gif"
+  s.homepage         = "https://github.com/jedipalm/MBCircularProgressBar"
+  s.screenshots     = "https://raw.github.com/jedipalm/MBCircularProgressBar/master/Readme/example.png", "https://raw.github.com/jedipalm/MBCircularProgressBar/master/Readme/MBCircularProgressBar.gif"
   s.license          = 'MIT'
-  s.author           = { "Mati Bot" => "matibot@gmail.com" }
-  s.source           = { :git => "https://github.com/matibot/MBCircularProgressBar.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/@b0tnik'
+  s.author           = { "JediPalm" => "jedipalm@gmail.com" }
+  s.source           = { :git => "https://github.com/jedipalm/MBCircularProgressBar.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
